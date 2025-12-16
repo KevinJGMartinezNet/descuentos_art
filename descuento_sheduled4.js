@@ -3,7 +3,22 @@
  * @NScriptType ScheduledScript
  * @NModuleScope Public
  * @Author Kevin Jesús González Martínez
- * @description Desactiva descuentos vencidos, recalcula artículos y envía correo con CSV
+ * @CreatedDate 2025-08-28
+ * @Version 1.0.2
+ * @Project Reporte: Movimiento de costos relacionado al modulo de descuento.
+ * @Category Inventario / Tipo de registro
+ * @Description Reporte: Este proyecto sirve para poder poner descuentos a los artículos dentro del catalogo de artículos, además que apoya a mandar correo electrónico, archivo CSV, y avisa al usuario cuando termina el descuento.
+ *
+ * @ReviewedBy KEVIN JESUS GONZALEZ MARTINEZ 
+ * @ApprovedBy CARLOS AUGUSTO FUENTES PEÑA
+ *
+ * @LastModified 2025-12-16
+ * @LastModifiedBy Kevin Jesús González Martínez
+ *
+ * @ChangeLog
+ *    - 2025-12-15 | Kevin J. González | v1.0.0 | Hacer el recálculo cuando termina el descuento.
+ *    - 2025-12-15 | Kevin J. González | v1.0.1 | Desarrollo de notificación por correo electrónico.
+ *    - 2025-12-15 | Kevin J. González | v1.0.2 | Desarrollo de archivo CSV, para que lo tengan como referencia y descarga.
  */
 define([
     'N/search',
@@ -370,4 +385,5 @@ define([
     return {
         execute: execute
     };
+
 });
