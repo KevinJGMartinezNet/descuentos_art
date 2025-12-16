@@ -3,9 +3,21 @@
  * @NScriptType UserEventScript
  * @NModuleScope Public
  * @Author Kevin Jesús González Martínez
- * @description VERSION DESCUENTO 2 EN NETSUITE, DONDE SOLAMENTE SE ESTA USANDO UN EVENTO DE USUARIO PARA PDOER HACER EL PROCESO
- * @LastModified 2025-08-19
+ * @CreatedDate 2025-08-15
+ * @Version 1.0.0
+ * @Project Reporte: Movimiento de costos relacionado al modulo de descuento.
+ * @Category Inventario / Tipo de registro
+ * @Description Reporte: Este proyecto sirve para poder poner descuentos a los artículos dentro del catalogo de artículos.
+ *
+ * @ReviewedBy KEVIN JESUS GONZALEZ MARTINEZ 
+ * @ApprovedBy CARLOS AUGUSTO FUENTES PEÑA
+ *
+ * @LastModified 2025-12-16
  * @LastModifiedBy Kevin Jesús González Martínez
+ *
+ * @ChangeLog
+ *    - 2025-12-04 | Kevin J. González | v1.0.0 | Creación del modulo y desarrollo con los parametros que me asignaron en el requerimiento.
+ *
  */
 define(['N/search', 'N/record', 'N/log'], function (search, record, log) {
 
@@ -136,3 +148,4 @@ define(['N/search', 'N/record', 'N/log'], function (search, record, log) {
 
     return { afterSubmit: afterSubmit };
 });
+
