@@ -16,7 +16,7 @@
  * @LastModifiedBy Kevin Jesús González Martínez
  *
  * @ChangeLog
- *    - 2025-12-04 | Kevin J. González | v1.0.0 | Creación del modulo y desarrollo con los parametros que me asignaron en el requerimiento.
+ *    - 2025-08-15 | Kevin J. González | v1.0.0 | Creación del modulo y desarrollo con los parametros que me asignaron en el requerimiento.
  *
  */
 define(['N/search', 'N/record', 'N/log'], function (search, record, log) {
@@ -148,4 +148,5 @@ define(['N/search', 'N/record', 'N/log'], function (search, record, log) {
 
     return { afterSubmit: afterSubmit };
 });
+
 
