@@ -2,8 +2,20 @@
  * @NApiVersion 2.x
  * @NScriptType ClientScript
  * @Author Kevin Jesús González Martínez
- * @description Calcula valor aplicado en tiempo real en el registro de descuento
- * IMPORTANTE: Este script va en customrecord_descuento_articulos
+ * @CreatedDate 2025-08-15
+ * @Version 1.0.0
+ * @Project Reporte: Modulo de descuento, Backend.
+ * @Category Inventario / Tipo de registro
+ * @Description Reporte: Este proyecto sirve para poder poner descuentos a los artículos dentro del catalogo de artículos, además que este apoya a ver la operación a tiempo real cuando se ponen los descuentos.
+ *
+ * @ReviewedBy KEVIN JESUS GONZALEZ MARTINEZ 
+ * @ApprovedBy CARLOS AUGUSTO FUENTES PEÑA
+ *
+ * @LastModified 2025-12-16
+ * @LastModifiedBy Kevin Jesús González Martínez
+ *
+ * @ChangeLog
+ *    - 2025-08-15 | Kevin J. González | v1.0.0 | Creación del modulo y desarrollo con los parametros que me asignaron en el requerimiento.
  */
 define(['N/search', 'N/currentRecord'], function(search, currentRecord) {
 
@@ -107,4 +119,5 @@ define(['N/search', 'N/currentRecord'], function(search, currentRecord) {
         pageInit: pageInit,
         fieldChanged: fieldChanged
     };
+
 });
